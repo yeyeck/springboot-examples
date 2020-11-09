@@ -1,0 +1,10 @@
+spring:
+  artemis:
+    # 指定连接外部Artemis服务器，而不是启动嵌入式服务:
+    mode: native
+    # 服务器地址和端口号:
+    host: 47.106.185.245
+    port: 61616
+    # 连接用户名和口令由创建Artemis服务器时指定:
+    user: admin
+    password: password
